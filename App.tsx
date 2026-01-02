@@ -13,7 +13,6 @@ import {
   Youtube,
   Instagram
 } from 'lucide-react';
-import AIAssistant from './components/AIAssistant';
 
 const SkillCard = ({ title, desc, icon: Icon, color }: any) => (
   <div className="glass p-6 rounded-2xl group hover:border-blue-500/50 transition-all duration-300 transform hover:-translate-y-2">
@@ -153,7 +152,7 @@ const App: React.FC = () => {
 
             {/* Instagram Card */}
             <a 
-              href="https://www.instagram.com/seemon.npc/?igsh=YmZ1NXRzdzA5dTZl" 
+              href="https://www.instagram.com/seemon.558/?igsh=MWt2aWhyZjFoamN1aQ%3D%3D" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="glass p-10 rounded-[2.5rem] group hover:border-pink-500/50 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
@@ -231,13 +230,11 @@ const App: React.FC = () => {
           <div className="flex gap-6">
             <a href="https://github.com/seemon-npc" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors"><Github size={20}/></a>
             <a href="https://www.youtube.com/@DiodasNeedsTherapy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors"><Youtube size={20}/></a>
-            <a href="https://www.instagram.com/seemon.npc/?igsh=YmZ1NXRzdzA5dTZl" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors"><Instagram size={20}/></a>
+            <a href="https://www.instagram.com/seemon.558/?igsh=MWt2aWhyZjFoamN1aQ%3D%3D" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors"><Instagram size={20}/></a>
             <a href="mailto:arulseemonraj@gmail.com" className="text-gray-400 hover:text-white transition-colors"><Mail size={20}/></a>
           </div>
         </div>
       </footer>
-
-      <AIAssistant />
 
       <style>{`
         @keyframes marquee {
