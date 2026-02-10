@@ -109,7 +109,7 @@ const App: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* GitHub Card */}
             <a 
               href="https://github.com/seemon-npc" 
@@ -147,6 +147,26 @@ const App: React.FC = () => {
               </p>
               <div className="mt-auto flex items-center gap-2 text-red-400 font-bold tracking-wide uppercase text-xs">
                 Watch on YouTube <ExternalLink size={14} />
+              </div>
+            </a>
+
+            {/* HackerRank Card */}
+            <a 
+              href="https://www.hackerrank.com/profile/arulseemonraj" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="glass p-10 rounded-[2.5rem] group hover:border-green-500/50 transition-all duration-500 flex flex-col items-center text-center relative overflow-hidden"
+            >
+              <div className="absolute top-0 right-0 w-32 h-32 bg-green-600/5 blur-[50px] -z-10 group-hover:bg-green-600/10 transition-colors"></div>
+              <div className="w-20 h-20 glass rounded-3xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500 border border-white/10 group-hover:border-green-500/30">
+                <Code size={40} className="text-green-400" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Coding Challenges</h3>
+              <p className="text-gray-400 mb-8 leading-relaxed">
+                Competitive programming profile on HackerRank. Practicing problem-solving and Python fundamentals.
+              </p>
+              <div className="mt-auto flex items-center gap-2 text-green-400 font-bold tracking-wide uppercase text-xs">
+                View HackerRank <ExternalLink size={14} />
               </div>
             </a>
 
